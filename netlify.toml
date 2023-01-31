@@ -33,3 +33,9 @@
   to = "http://mynodetest.cafe24app.com/board/search/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/board/increase/*"
+  to = "http://mynodetest.cafe24app.com/board/increase/:splat"
+  status = 200
+  force = true 
