@@ -30,6 +30,6 @@
 
 [[redirects]]
   from = "/board/search/*"
-  to = "http://mynodetest.cafe24app.com/board/update/:splat"
+  to = "http://mynodetest.cafe24app.com/board/search/:splat"
   status = 200
   force = true
