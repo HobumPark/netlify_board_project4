@@ -15,8 +15,8 @@ class InputComp extends Component {
 
     searchBoardList=async()=>{
         const {searchText}=this.state
-        alert("게시판 검색 버튼!")
-        alert("입력된 검색어:"+searchText)
+        console.log("게시판 검색 버튼!")
+        console.log("입력된 검색어:"+searchText)
 
         let res=null
         if(searchText===''){
