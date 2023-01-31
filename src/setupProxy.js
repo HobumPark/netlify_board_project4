@@ -35,4 +35,18 @@ module.exports = (app) => {
 			changeOrigin: true,
 		})
 	);
+
+	app.use(
+		createProxyMiddleware('/board/search/*', {
+			target: 'http://mynodetest.cafe24app.com', 
+			changeOrigin: true,
+		})
+	);
+
+	app.use(
+		createProxyMiddleware('/board/increase/*', {
+			target: 'http://mynodetest.cafe24app.com', 
+			changeOrigin: true,
+		})
+	);
 };
