@@ -31,7 +31,7 @@ class PostView extends Component {
 
     increaseViewCount=async(no)=>{
         //alert("조회수 증가!")
-        const res = await axios.put(`/board/increase/${no}`);
+        const res = await axios.get(`/board/increase/${no}`);
         //console.log(res)
         //조회수 1증가 (수정)
 
