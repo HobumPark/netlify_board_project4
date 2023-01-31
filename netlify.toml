@@ -1,0 +1,29 @@
+[[redirects]]
+  from = "/board"
+  to = "http://mynodetest.cafe24app.com/board"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/board/*"
+  to = "http://mynodetest.cafe24app.com/board/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/board/write"
+  to = "http://mynodetest.cafe24app.com/board/write"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/board/delete/*"
+  to = "http://mynodetest.cafe24app.com/board/delete/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/board/update/*"
+  to = "http://mynodetest.cafe24app.com/board/update/:splat"
+  status = 200
+  force = true
