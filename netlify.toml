@@ -39,3 +39,9 @@
   to = "http://mynodetest.cafe24app.com/board/increase/:splat"
   status = 200
   force = true 
+
+[[redirects]]
+  from = "/board/prevAndNext/*"
+  to = "http://mynodetest.cafe24app.com/board/prevAndNext/:splat"
+  status = 200
+  force = true 

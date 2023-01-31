@@ -49,4 +49,11 @@ module.exports = (app) => {
 			changeOrigin: true,
 		})
 	);
+
+	app.use(
+		createProxyMiddleware('/board/prevAndNext/*', {
+			target: 'http://mynodetest.cafe24app.com', 
+			changeOrigin: true,
+		})
+	);
 };
